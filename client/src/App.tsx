@@ -1,12 +1,8 @@
-import React from "react";
 import "./App.scss";
+import Main from "components/page/Main";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;
